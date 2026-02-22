@@ -1,0 +1,10 @@
+{
+  "title": "Tic Tac Toe",
+  "player_x": "Player 1",
+  "player_o": "Player 2",
+  "vs": "VS",
+  "player_wins": "Player {player} Wins!",
+  "play_again": "Play Again",
+  "your_turn": "Your Turn",
+  "hello": "Hello!"
+}

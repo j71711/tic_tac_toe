@@ -1,0 +1,10 @@
+{
+  "title": "إكس-أو",
+  "player_x": "اللاعب 1",
+  "player_o": "اللاعب 2",
+  "vs": "ضد",
+  "player_wins": "فاز اللاعب {player}!",
+  "play_again": "العب مرة أخرى",
+  "your_turn": "دورك",
+  "hello": "مرحبا!"
+}
