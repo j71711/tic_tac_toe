@@ -1,49 +1,39 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/NwGMhDpQ)
 # 🎮 Tic Tac Toe - Advanced Flutter Edition
 
-A sophisticated Tic Tac Toe application built with Flutter, focusing on high-quality UI/UX, seamless transitions, and interactive animations. This project demonstrates the implementation of complex game logic combined with a polished, responsive interface.
+A sophisticated Tic Tac Toe game built with **Flutter**, featuring smooth UI/UX, interactive animations, dynamic theming, and complete game logic. This project demonstrates how to combine **complex game state management** with **modern Flutter design principles** for a polished, responsive experience.
 
 ---
 
 ## 🚀 Key Features
 
-* **Smart Game Logic**: Full implementation of Tic Tac Toe rules, including win detection (horizontal, vertical, diagonal), draw handling, and score tracking for Player X and Player O.
-* **Dynamic Theming**: Integrated Light and Dark mode support that adapts the entire UI color palette, including gradients, glows, and shadows.
-* **Interactive Cards**: 
-    * **Tactile Feedback**: Player cards and game tiles feature interactive animations using `AnimatedContainer` and `Tween` to provide a "pop" effect on tap.
-    * **State Awareness**: Cards visually reflect the current turn and winner status through dynamic borders and scaling.
-* **Win Celebration**: A dedicated interactive animation triggers upon victory, highlighting the winning combination with a unique visual sequence to celebrate the player's achievement.
-* **Full Localization**: Support for English (LTR) and Arabic (RTL) layouts with automatic UI mirroring.
+- **Smart Game Logic**: Handles wins, draws, and score tracking for both players.  
+- **Dynamic Theming**: Supports Light and Dark modes with consistent color palettes.  
+- **Interactive Tiles**: Animations on tap with visual feedback for the current turn.  
+- **Win Celebration**: Lottie-powered confetti animation highlighting the winning combination.  
 
 ---
 
-## 🛠 Technical Stack & Core Concepts
+## 🛠 Technical Stack
 
-This project serves as a practical application of the following Flutter concepts:
-
-### 1. Animations (The Heart of the UI) 
-* **Implicit Animations**.
-* **Explicit Animations**.
-* * **Thrid Party packages**:.
-
-
-### 2. UI/UX & Theming
-* **Responsive Layout**: Built to look great on various screen sizes using `LayoutBuilder`.
-* **Theming Engine**: Deep integration of `ThemeData` to switch between a vibrant Dark Mode and a clean Light Mode.
-
-### 3. State Management
-* Efficiently managing the game board state, turn switching, and real-time score updates.
+- **Flutter (Material 3)**  
+- **State Management**: Custom controller for game board, turns, and scores  
+- **Animations**: `AnimatedContainer` and Lottie  
+- **UI/UX**: Theming engine and interactive components  
 
 ---
 
-## 📸 Project Preview
+## 📝 Game Mechanics
 
-| Feature | Preview |
-| :--- | :--- |
-| **Dark Mode & Win State** | |
-| **Light Mode ** |  |
-| **Interactive Card Clicked ** |  |
+- Players take turns placing **X** or **O** on a 3×3 grid.  
+- The game automatically detects **winning patterns**: horizontal, vertical, and diagonal.  
+- If all cells are filled without a winner, the game ends in a **draw**.  
+- Scoreboard tracks Player X wins, Player O wins, and draws.  
+- Undo functionality allows players to revert the last move.  
+- Reset functionality supports **full reset** or **keep scores** mode for continuous play.  
 
 ---
 
+## 📁 Assets
+
+- All **Lottie animations** are stored in:  assets/lottie/
 
