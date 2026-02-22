@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_localization: ^0.3.3
+  font_awesome_flutter: ^10.12.0
   lottie: ^3.3.2
 
 dev_dependencies:
