@@ -1,3 +1,7 @@
+
+
+
+
 # 🎮 Tic Tac Toe - Advanced Flutter Edition
 
 A sophisticated Tic Tac Toe game built with **Flutter**, featuring smooth UI/UX, interactive animations, dynamic theming, and complete game logic. This project demonstrates how to combine **complex game state management** with **modern Flutter design principles** for a polished, responsive experience.
@@ -36,4 +40,14 @@ A sophisticated Tic Tac Toe game built with **Flutter**, featuring smooth UI/UX,
 ## 📁 Assets
 
 - All **Lottie animations** are stored in:  assets/lottie/
+
+
+
+
+## video
+
+https://github.com/user-attachments/assets/0692b682-fd41-4e3b-a399-ea66f5beb66b
+
+
+
 
